@@ -1,2 +1,4 @@
 [build]
-  command = "npm run build"
+base = "subfolder" # optional, must be a string
+publish = "dist" # required for publish directory
+command = "npm run build"
